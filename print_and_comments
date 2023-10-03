@@ -1,0 +1,11 @@
+void main() {
+  print("Hello Developer !!!") ; 
+  print(3*12-12/4) ;  
+  print("3*12") ; 
+  print("3"+"2") ; 
+  print('3'*2);
+  
+  //It follows BODMAS(Brackets>Orders>Div>Mul>Add>Sub) 
+  // used for single line comments 
+  /* used for multi line comments */ 
+}
