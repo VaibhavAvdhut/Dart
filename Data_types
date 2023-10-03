@@ -1,0 +1,41 @@
+void main() {
+// Always give names of variables in CamelCase
+// Variables (variable name cannot be keyword 
+// Data types -> int , double , bool , string 
+// <Datatype>  <variable_name> = value ;
+  int first = 89;
+
+  int second = 26;
+
+  print(first);
+  print(second);
+
+  print(first + second);
+
+  print(first - second);
+
+  print(first * second);
+
+  print(first / second);
+
+// double data type 
+
+  double A = 3856.38;
+
+  double B = 35.346;
+
+  String C = "iefbdjsda";
+
+  print(A);
+
+  print(B);
+
+  print(C);
+
+// bool data type 
+
+  bool isGood = true;
+
+  print(isGood);
+ 
+}
