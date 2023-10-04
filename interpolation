@@ -1,0 +1,34 @@
+void main() {
+  String first = "Hello";
+
+  String second = "Vaibhav";
+
+  print(first); // Hello
+
+  print(second); // Vaibhav
+
+  print(first + second); // Hello Vaibhav
+
+  String third = "$first $second  Avdhut"; // Interpolation is used
+
+  print(third);
+
+  String four = "$second how are you ?  "; // Interpolation
+
+  print(four); // Vaibhav how are you
+
+  int age = 20;
+
+  print("$first My name is $second and I am $age years old ");
+
+  print("Vaibhav word contains  ${second.length} letters  "); // Interpolation
+
+  // id you want to print $ in output then put \ before $ .
+
+  print("I have \$20 ");
+
+  // '\n' is new line character in the Dart
+
+  print(
+      " Hello \n poeple \n this one is  \n Vaibhav"); //  \n  takes printing to new line
+}
