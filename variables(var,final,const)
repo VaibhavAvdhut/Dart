@@ -1,0 +1,49 @@
+void main() {
+
+// varibles 
+ 
+// var/final/const  variable_name = value ;  
+  
+/*var: It's a keyword used for declaring variables
+  without specifying the type explicitly. 
+Dart infers the type based on the value assigned.
+it can be change with same data
+var is mutable   */ 
+ 
+var value = 123 ; 
+  
+print(value) ; 
+  
+  
+value = 88 ; 
+  
+  
+print(value) ; 
+  
+/* final: It's used to declare a variable
+   that can be assigned a value only once.
+   Once assigned, its value cannot be changed.
+   
+ */ 
+  
+  
+final key ; 
+ 
+key = "Vaibhav" ; 
+  
+print(key) ; 
+  
+  
+  
+/* const: It's similar to final but is used for variables 
+  that are compile-time constants.
+  The value must be known at compile time.
+  
+*/ 
+    
+const val = "final Must be initialized when created ";
+  
+print(val) ;
+  
+  
+}
