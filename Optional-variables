@@ -1,0 +1,37 @@
+void main() {
+// optional  varibles (int, bool , string , double)
+  // It may have value or it can be null
+  // we put question mark to show it is optional variable
+
+  int? a;
+
+  print(a); // have a null value
+
+  a = 2615;
+
+  print(a); // have a int value
+
+  print(a.hashCode);
+
+  a = null; // again assigned to null
+
+  double? b;
+
+  print(b);
+
+  b = 22.88;
+
+  print(b);
+
+  dynamic c;
+
+  print("$c ->dynamic is nullable without  '?' ");
+
+  String? d;
+
+  print(d?.length ?? 0); // check length and if it is null it gives 0
+
+  d = "Hello";
+
+  print(d.length ?? 0);
+}
