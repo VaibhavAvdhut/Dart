@@ -1,0 +1,37 @@
+void main() {
+  /*  Ternary operators 
+  Ternary operator is a concise way to 
+  write a conditional expression
+  Syntax : 
+  condition ? expression1 : expression2
+  Here's how it works:
+
+If the condition is true, expression1 is evaluated
+and its value is returned.
+If the condition is false, expression2 is evaluated
+and its value is returned.
+  */
+
+  String sample = 'Vaibhav';
+
+  String value = sample.startsWith('V') ? 'yesss' : 'nooo';
+  
+  print(value);
+
+  int A = 55;
+
+  int B = A.isEven ? 15 : 20;
+  // In this case condition is false so it take value after the colon
+  print(B);
+
+  int p = 10;
+  int q = 20;
+
+  int min_value = (p < q) ? p : q;
+
+  print(min_value);
+
+  /* here it checks the condition in bracket
+  if it is true then p is assigned to min_value 
+  otherwise q is assigned to min_value */
+}
