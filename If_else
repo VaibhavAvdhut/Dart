@@ -1,0 +1,17 @@
+void main() {
+// If statements
+  int age = 28;
+
+  if (age >= 18) // this condition gets right
+  {
+    // This loop is going to execute
+    print("Adult");
+    int x = age - 18; // this calculates the age after 18 (Adult)
+
+    print("you are adult for $x years");
+  } else {
+    print("Child");
+    int r = 18 - age;
+    print("You Need $r years to be Adult");
+  }
+}
