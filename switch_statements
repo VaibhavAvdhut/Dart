@@ -1,0 +1,41 @@
+void main() {
+  /* Switch statements 
+   Switch statements in Dart are used 
+   to handle multiple cases 
+   based on the value of an expression
+  */
+
+  int A = 3;
+
+  switch (A) {
+    case 1:
+      print("Hiiiii");
+
+    case 2:
+      print("Helloooo");
+
+    default:
+      print("Noooooooo");
+  }
+
+  /* In this case it checked for value of A it not matched 
+   Case 1 and also case 2 
+   So if the value or case not matched 
+   then it executes the default code
+   */
+  String fruit = 'Apple';
+
+  switch (fruit) {
+    case 'Orange':
+      print("Selected fruit is Orange");
+
+    case 'Apple' when A >= 3: // new feature introduced in dart 3.0
+      print("Selected fruit is Apple");
+
+    case 'Banana':
+      print("Selected fruit is Banana ");
+
+    default:
+      print("Selected fruit is not in list");
+  }
+}
